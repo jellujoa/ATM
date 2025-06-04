@@ -24,17 +24,25 @@ public class GameManager : MonoBehaviour
     public void Start()
     {
         userData = new UserData("이찬", 100000, 50000);
-        userData.userNameText = userNameText;
-        userData.cashText = cashText;
-        userData.bankBalanceText = bankBalanceText;
+        userNameText.text = userData.userName;
+        cashText.text = userData.cash.ToString("N0"); // 쉼표 포함
+        bankBalanceText.text = userData.bankBalance.ToString("N0");
 
-         userData.RefreshUI();
+        RefreshUI();
         // UI 갱신
 
     }
     public void Update()
     {
-        userData.RefreshUI();
+        RefreshUI();// UI 갱신
     }
-
+    public void RefreshUI()
+    {
+        if (userNameText != null)
+            userNameText.text = userData.userName;
+        if (cashText != null)
+            cashText.text = userData.cash.ToString("N0"); // 쉼표 포함
+        if (bankBalanceText != null)
+            bankBalanceText.text = userData.bankBalance.ToString("N0");
+    }
 }
