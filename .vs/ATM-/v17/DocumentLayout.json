@@ -32,10 +32,11 @@
               "RelativeDocumentMoniker": "Assets\\Script\\UserData.cs",
               "ToolTip": "C:\\Users\\jellu\\Desktop\\Unity\\ATM\\ATM-\\Assets\\Script\\UserData.cs",
               "RelativeToolTip": "Assets\\Script\\UserData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T05:15:07.157Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -45,7 +46,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\PopupBank.cs",
               "ToolTip": "C:\\Users\\jellu\\Desktop\\Unity\\ATM\\ATM-\\Assets\\Script\\PopupBank.cs",
               "RelativeToolTip": "Assets\\Script\\PopupBank.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAArwBQAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAADwv2gAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T08:36:07.504Z",
               "EditorCaption": ""
@@ -58,9 +59,10 @@
               "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
               "ToolTip": "C:\\Users\\jellu\\Desktop\\Unity\\ATM\\ATM-\\Assets\\Script\\GameManager.cs",
               "RelativeToolTip": "Assets\\Script\\GameManager.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAwCsAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAUwDsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T05:27:43.867Z"
+              "WhenOpened": "2025-06-04T05:27:43.867Z",
+              "EditorCaption": ""
             }
           ]
         }

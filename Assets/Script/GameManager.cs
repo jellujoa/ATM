@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
     public Text cashText;
     public Text bankBalanceText;
 
+    public GameObject Error;
+
     private void Awake()
     {
         if (Instance == null)
@@ -45,4 +47,31 @@ public class GameManager : MonoBehaviour
         if (bankBalanceText != null)
             bankBalanceText.text = userData.bankBalance.ToString("N0");
     }
+    public void DepositToBank(int amount)
+    {
+        if(userData.cash >= amount)
+        {
+            userData.cash -= amount;
+            userData.bankBalance += amount;
+            RefreshUI();
+        }
+        else
+        {
+            Error.SetActive(true); // 잔액 부족 시 에러 메시지 표시
+        }
+    }
+    public void WithdrawFromBank(int amount)
+    {
+        if (userData.bankBalance >= amount)
+        {
+            userData.bankBalance -= amount;  // 은행 잔액 차감
+            userData.cash += amount;  // 현금 추가
+            RefreshUI();  // UI 갱신
+        }
+        else
+        {
+            Error.SetActive(true); // 잔액 부족 시 에러 메시지 표시
+        }
+    }
+
 }
